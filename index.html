@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+<style>
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        button {
+            background-color: #ff4d4d;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #e60000;
+        }
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.counter-container {
+    text-align: center;
+}
+
+#counter {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+</style>
+</head>
+<body>
+    <a href="#" id="myLink">Click me!</a>
+
+   <p> <h1>Clickable Images</h1>
+    <div class="image-container">
+        <img src="OppoReno12F5G-s.jpg" alt="Image 1" onclick="showAlert('Image 1')">
+        <img src="OppoReno12F5G-s.jpg" alt="Image 2" onclick="showAlert('Image 2')">
+        <img src="OppoReno12F5G-s.jpg" alt="Image 3" onclick="showAlert('Image 3')">
+        <img src="OppoReno12F5G-s.jpg" alt="Image 4" onclick="showAlert('Image 4')">
+    </div>
+    <br>
+</p>
+<br>
+    <div class="counter-container">
+        <h1 id="counter">0</h1>
+        <button id="decrease">Decrease</button>
+        <button id="increase">Increase</button>
+    </div><br>
+
+    <p><div class="image-container">
+        <img id="interactive-image" src="istockphoto-2111424340-1024x1024.jpg" alt="Interactive Image">
+    </div></p>
+</body>
+</html>
